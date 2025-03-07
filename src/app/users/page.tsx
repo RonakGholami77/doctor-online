@@ -4,7 +4,9 @@ type User = {
 };
 
 export default async function Page() {
-  const usersFetch = await fetch("https://jsonplaceholder.typicode.com/users");
+  const usersFetch = await fetch("https://jsonplaceholder.typicode.com/users", {
+    cache: "no-store",
+  });
   const users: User[] = await usersFetch.json();
 
   return (
