@@ -1,11 +1,11 @@
 html {
-    font-family: var(--font-vazirmatn);
+  font-family: var(--font-vazirmatn);
 }
 
 h1 {
-    font-family: var(--font-markazi);
+  font-family: var(--font-markazi);
 }
 
 p {
-    font-family: var(--font-kufi);
+  font-family: var(--font-kufi);
 }
